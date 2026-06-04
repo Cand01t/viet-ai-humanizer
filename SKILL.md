@@ -27,7 +27,7 @@ Trích dẫn đoạn cụ thể với mỗi dấu hiệu tìm được.
 
 **Signposting** (thông báo thay vì làm): *"Hãy cùng tìm hiểu…"*, *"Dưới đây chúng ta sẽ khám phá…"*
 
-**Phân tích bề mặt** (mệnh đề phụ không thêm thông tin): *"…, qua đó thể hiện cam kết…"*, *"…, từ đó cho thấy sự chuyển dịch…"* → xóa hoặc thay bằng nội dung thật
+**Phân tích bề mặt** (mệnh đề phụ không thêm thông tin): *"…, qua đó thể hiện cam kết…"*, *"…, từ đó cho thấy sự chuyển dịch…"*
 
 **Các pattern nhỏ khác:**
 - Copula avoidance: *"đóng vai trò là"* → đổi thành *"là"*
@@ -40,30 +40,27 @@ Trích dẫn đoạn cụ thể với mỗi dấu hiệu tìm được.
 - **Bullet nông:** mở đầu *"Dưới đây là một số…"*, các ý chung chung, trùng lặp, dùng list ở chỗ nên viết đoạn văn
 - **Inline-header list:** `- **Tốc độ:** Nhanh hơn…` → câu sau tiêu đề chỉ nhắc lại tiêu đề
 - **Bold thừa:** in đậm trang trí thay vì nhấn mạnh thật sự
-- **Emoji trang trí:** `🚀 **Giai đoạn 1:**`, `✅ **Kết quả:**` → xóa hết
-- **Header + câu lặp:** tiêu đề ngay sau là một câu chỉ nhắc lại tiêu đề → xóa câu lặp
+- **Emoji trang trí:** `🚀 **Giai đoạn 1:**`, `✅ **Kết quả:**`
+- **Header + câu lặp:** tiêu đề ngay sau là một câu chỉ nhắc lại tiêu đề
 
 ### Dấu hiệu 3 — Em-dash (—) xuất hiện nhiều
 
 Dấu `—` (dài, khác dấu gạch nối `-`) từ 2 lần trở lên trong đoạn ngắn là tín hiệu rõ, đặc biệt dạng đôi: *"chiến dịch này — được triển khai vào quý 3 — đã đạt…"*
 
-Thay bằng: dấu phẩy, dấu chấm (tách câu), dấu hai chấm, hoặc ngoặc đơn.
-**Quy tắc cứng:** bản sau chỉnh sửa không được chứa `—` hay `–`. Scan lại trước khi xuất.
-
 ### Dấu hiệu 4 — Sót giọng chatbot
 
 - **Prompt còn sót:** *"Bạn đã hỏi tôi về…"*, *"Chắc chắn rồi! Tất nhiên! Được thôi…"*
 - **Giọng xu nịnh:** *"Đây là câu hỏi rất hay!"*, *"Bạn hoàn toàn đúng khi…"*
-- **Kết bài chatbot:** *"Hy vọng bài viết hữu ích!"*, *"Hãy để lại bình luận nếu có câu hỏi!"* → xóa toàn bộ
+- **Kết bài chatbot:** *"Hy vọng bài viết hữu ích!"*, *"Hãy để lại bình luận nếu có câu hỏi!"*
 
 ### Dấu hiệu 5 — Cấu trúc câu yếu, từ lấp chỗ trống
 
-- **Synonym cycling:** *"chiến dịch… kế hoạch… chương trình… hoạt động…"* (cùng chỉ một thứ) → chọn một từ nhất quán
-- **False ranges:** *"từ chiến lược đến thực thi / từ người mới đến chuyên gia"* → nghe toàn diện nhưng vô nghĩa → viết thẳng
-- **Excessive hedging:** chồng nhiều từ phòng thủ: *"có thể có lẽ dường như…"* → giữ tối đa một từ mỗi câu
-- **Passive voice thừa:** *"Kết quả được ghi nhận là…", "Điều này được xem là…"* → chuyển chủ động khi rõ chủ thể
-- **Filler phrases:** *"Trong bối cảnh đó / Nhìn vào thực tế / Điều quan trọng cần lưu ý là"* → xóa
-- **Mục "Thách thức và Triển vọng" khuôn:** *"Mặc dù… vẫn còn thách thức… nhưng tương lai sáng"* → tích hợp vào bài hoặc xóa
+- **Synonym cycling:** *"chiến dịch… kế hoạch… chương trình… hoạt động…"* (cùng chỉ một thứ)
+- **False ranges:** *"từ chiến lược đến thực thi / từ người mới đến chuyên gia"* → nghe toàn diện nhưng vô nghĩa
+- **Excessive hedging:** chồng nhiều từ phòng thủ: *"có thể có lẽ dường như…"*
+- **Passive voice thừa:** *"Kết quả được ghi nhận là…", "Điều này được xem là…"*
+- **Filler phrases:** *"Trong bối cảnh đó / Nhìn vào thực tế / Điều quan trọng cần lưu ý là"*
+- **Mục "Thách thức và Triển vọng" khuôn:** *"Mặc dù… vẫn còn thách thức… nhưng tương lai sáng"*
 
 ---
 
@@ -73,51 +70,45 @@ Văn phạm đúng, một từ nối, một dấu `—`, thuật ngữ chuyên n
 
 ---
 
-## Bước 2: Báo cáo
+## Bước 2: Liệt kê dấu hiệu + cách sửa
+
+Sau khi phân tích, xuất danh sách theo dạng:
 
 ```
-**Mức độ "mùi AI":** Thấp / Trung bình / Cao
-(Thấp: 1-2 dấu hiệu đơn lẻ | Trung bình: 3-4 dấu hiệu | Cao: cụm nhiều dấu hiệu rõ)
-
 Dấu hiệu tìm thấy:
-- Dấu hiệu X.x: "[trích dẫn]" → giải thích ngắn
-
-Dấu hiệu không tìm thấy: [liệt kê]
+1. [Loại]: "[trích dẫn gốc]" → [cách sửa cụ thể theo bảng dưới]
+2. [Loại]: "[trích dẫn gốc]" → [cách sửa cụ thể theo bảng dưới]
 ```
 
----
-
-## Bước 3: Chỉnh sửa
-
-Hỏi *"Bạn có muốn tôi chỉnh sửa không?"* — trừ khi người dùng đã yêu cầu rõ từ đầu.
-
-**Bảng sửa nhanh:**
+**Cách sửa theo từng loại — áp dụng cứng, không hỏi lại:**
 
 | Dấu hiệu | Cách sửa |
 |----------|----------|
-| Câu mở đầu khuôn | Thay bằng câu dẫn vào vấn đề trực tiếp |
-| Từ nối / filler / AI vocab | Xóa hoặc thay bằng từ cụ thể hơn |
-| Ngôn ngữ quảng cáo | Thay bằng mô tả cụ thể hoặc xóa |
-| Signposting | Xóa — đi thẳng vào nội dung |
-| Mệnh đề phụ bề mặt | Xóa hoặc thay bằng câu có nội dung thật |
-| Bullet list nông | Gộp thành đoạn văn |
+| Câu mở đầu khuôn | Xóa hẳn, viết thẳng vào ý chính |
+| Từ nối / filler / AI vocab | Xóa nếu câu vẫn đủ nghĩa; thay từ cụ thể hơn nếu cần nối ý |
+| Ngôn ngữ quảng cáo | Thay bằng mô tả cụ thể |
+| Signposting | Xóa |
+| Mệnh đề phụ bề mặt | Xóa |
+| Bullet list nông | Luôn gộp thành đoạn văn |
 | Bold / emoji thừa | Xóa hết |
-| Em-dash | Dấu phẩy, dấu chấm, hoặc tách câu — không để lại `—` |
-| Giọng chatbot / xu nịnh | Xóa toàn bộ |
-| Synonym cycling | Chọn một từ nhất quán |
-| Passive voice thừa | Chuyển chủ động |
-| Kết bài sáo | Thay bằng kết bài có luận điểm riêng |
+| Em-dash (`—` hoặc `–`) | Thay bằng dấu phẩy hoặc tách thành 2 câu. **Không để lại dấu `—` nào trong bản sau.** |
+| Giọng chatbot / xu nịnh | Xóa toàn bộ, không thay |
+| Kết bài sáo | Viết lại câu kết có luận điểm riêng |
+| Synonym cycling | Chọn từ đầu tiên xuất hiện, dùng nhất quán xuyên suốt |
+| Passive voice thừa | Chuyển chủ động khi rõ chủ thể |
 
 ---
 
-## Bước 4: Xuất bản
+## Bước 3: Xuất bản
+
+Áp dụng tất cả các sửa đổi và xuất:
 
 ```
 ## Bản đã chỉnh sửa
 [Toàn bộ văn bản sau khi sửa]
 
 ---
-Tóm tắt thay đổi:
+Thay đổi:
 - [mỗi dòng một thay đổi chính]
 ```
 
